@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+}
+  body{
+  background-image: url("images/best.food.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+    color:#fff;
+    text-align: center;
+    font-size: 40px;
+}
+form{
+    width:60%;
+    margin:auto;
+    padding:20px;
+    background-color: #a4a089;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+label{
+    margin-bottom: 5px;
+}
+input{
+    width:100%;
+    padding:15px;
+    background-color: rgb(222, 226, 226);
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+button{
+    background-color:rgb(133, 130, 130) ;
+    color:#160808;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    box-shadow:-5.3px 5.3px  #f6a427;
+    
+}
+
+
