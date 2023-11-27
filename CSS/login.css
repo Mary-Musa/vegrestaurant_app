@@ -1,0 +1,56 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+body{
+    background-image: url('../images/vegeterian diet.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+form{
+    width:40%;
+    margin:60px;
+    padding:20px;
+    background-color: #726f5c;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: 150px;   
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width:100%;
+    padding:15px;
+    background-color: rgb(202, 235, 235);
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+button{
+    background-color:rgb(104, 42, 42) ;
+    color:#140303;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    box-shadow:-5.3px 5.3px  #342002;
+    
+}
